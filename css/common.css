@@ -6,6 +6,16 @@
   font-family: Fira Sans;
 }
 .main-bg {
+  /* gradient for desktop
+  background: linear-gradient(223deg, #041c82 6.44%, #00122b 65%, #440784 100%);
+  */
   background: linear-gradient(223deg, #041c82 6.44%, #00122b 65%, #440784 100%);
   color: var(--white);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  padding: 50px 20px 10px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
