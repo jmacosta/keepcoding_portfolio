@@ -1,0 +1,11 @@
+:root {
+  /*Project Colors */
+  --white: #fff;
+  --accent-color: #e84e1b;
+  font-size: 16px;
+  font-family: Fira Sans;
+}
+.main-bg {
+  background: linear-gradient(223deg, #041c82 6.44%, #00122b 65%, #440784 100%);
+  color: var(--white);
+}
