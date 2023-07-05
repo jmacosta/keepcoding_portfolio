@@ -4,3 +4,15 @@
   padding-bottom: 2%;
   padding-top: 2%;
 }
+
+@media (768px < width) {
+  .hidden-xl {
+    display: none;
+  }
+}
+
+@media (768px >= width) {
+  .hidden-xs-md {
+    display: none;
+  }
+}
