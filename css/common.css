@@ -7,7 +7,7 @@
   font-size: 16px;
   font-family: "Fira Sans", sans-serif;
 }
-.body-bg {
+.body {
   background: linear-gradient(223deg, #041c82 6.44%, #00122b 65%, #440784 100%);
   color: var(--white);
   height: 100vh;
@@ -17,6 +17,8 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 h1 {
