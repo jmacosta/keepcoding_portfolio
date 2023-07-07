@@ -5,6 +5,7 @@
   --white: #fff;
   --accent-color: #e84e1b;
   font-size: 16px;
+  line-height: 1rem;
   font-family: "Fira Sans", sans-serif;
 }
 .body {
