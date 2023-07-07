@@ -26,12 +26,6 @@
   padding-top: 5%;
 }
 .slider__cta__button {
-  border-radius: 5px;
-  padding: 20px 5px;
-  margin-top: 1rem;
-  background-color: var(--accent-color);
-  display: flex;
-  justify-content: center;
   width: 150px;
 }
 .slider__cta__button a {
