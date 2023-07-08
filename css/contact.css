@@ -1,4 +1,5 @@
-.contact {
+.contact,
+.contact > form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,6 +19,17 @@
   flex-direction: column;
   gap: 0.5rem;
 }
+.contact__form-item--checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.contact__form-item--checkbox input {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
 .contact__form-item > label {
   font-size: 1.2rem;
 }
@@ -33,10 +45,38 @@
   line-height: 2rem;
   padding: 10px;
 }
+.contact__form-item input::placeholder {
+  color: #ccc;
+}
 .contact__form-item__radio input {
   line-height: 2rem;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 .contact__form-item textarea {
   padding: 10px;
+}
+.contact__form-item input::placeholder {
+  color: #ccc;
+}
+
+.contact__form-item--button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+.contact__form-item--button .btn {
+  border: 0;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.contact__form-item--button #reset {
+  border: solid 1px var(--accent-color);
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
 }
