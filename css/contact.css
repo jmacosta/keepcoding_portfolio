@@ -1,0 +1,12 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact__title {
+  width: 100%;
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--accent-color);
+  text-align: center;
+}
