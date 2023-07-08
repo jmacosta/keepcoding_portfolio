@@ -243,14 +243,51 @@
           ><input type="text" name="surname" id="surname" required />
         </div>
         <div class="contact__form-item">
-          <label for="phone">Teléfono <span>*</span></label>
+          <label for="phone">Teléfono <span>*</span></label
+          ><input type="tel" name="phone" id="phone" required />
         </div>
         <div class="contact__form-item">
           <label for="github">Usuario Github <span>*</span></label>
+          <input
+            type="text"
+            name="github"
+            id="github"
+            required
+            pattern="^@[^\s]+"
+          />
         </div>
-        <div class="contact__form-item"><label for="known-me"></label></div>
+        <div class="contact__form-item">
+          <label for="known-me">¿Cómo me conociste?</label>
+          <fieldset>
+            <div class="contact__form-item__radio">
+              <input type="radio" name="known-me" id="Universidad" />
+              <label for="universidad">Universidad</label>
+            </div>
+            <div class="contact__form-item__radio">
+              <input type="radio" name="known-me" id="keepcoding" />
+              <label for="keepcoding">Keepcoding Kick-off</label>
+            </div>
+            <div class="contact__form-item__radio">
+              <input type="radio" name="known-me" id="colegio" />
+              <label for="colegio">Colegio</label>
+            </div>
+            <div class="contact__form-item__radio">
+              <input type="radio" name="known-me" id="github" />
+              <label for="github">En Github</label>
+            </div>
+          </fieldset>
+        </div>
+
         <div class="contact__form-item">
           <label for="more-info">Más información</label>
+          <textarea
+            name="known-me"
+            id="known-me"
+            cols="30"
+            rows="10"
+            maxlength="180"
+          >
+          </textarea>
         </div>
         <div class="contact__form-item">
           <label for="newsletter">Quiero acceso a la newsletter</label>

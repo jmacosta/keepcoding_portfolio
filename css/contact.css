@@ -12,10 +12,17 @@
   border-bottom: 1px solid var(--accent-color);
   text-align: center;
 }
-.contact__form-item {
+.contact__form-item,
+.contact__form-item fieldset {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+.contact__form-item > label {
+  font-size: 1.2rem;
+}
+.contact__form-item fieldset {
+  margin-top: 10px;
 }
 
 .contact__form-item span {
@@ -24,5 +31,12 @@
 
 .contact__form-item input {
   line-height: 2rem;
+  padding: 10px;
+}
+.contact__form-item__radio input {
+  line-height: 2rem;
+  margin-left: 20px;
+}
+.contact__form-item textarea {
   padding: 10px;
 }
