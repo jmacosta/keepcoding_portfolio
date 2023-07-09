@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
 }
 .projects__title {
   width: 100%;
@@ -64,7 +65,9 @@
 }
 
 .projects__button-see-more.btn {
-  padding: 5%;
+  padding: 1rem 1rem;
+  width: 50%;
+  margin: auto;
 }
 .projects__button-see-more a {
   color: white;
@@ -72,4 +75,13 @@
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2rem;
+}
+@media (768px < width) {
+  .projects__grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    row-gap: 1rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "project project project";
+  }
 }
