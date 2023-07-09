@@ -12,8 +12,8 @@
 }
 
 .skills__skill-container {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -22,7 +22,8 @@
 .skills__skill-container__title {
   display: flex;
   align-items: center;
-  gap: 2%;
+  gap: 0.5rem;
+  padding-left: 1rem;
 }
 
 .skills__skill-container__title__image {
@@ -79,4 +80,14 @@
 
 #git .skills__skill-container__gaugage__contain {
   width: 60%;
+}
+
+@media (768px < width) {
+  .skills__grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 2%;
+    grid-auto-columns: 1fr;
+    grid-template-areas: "skill skill skill";
+  }
 }
