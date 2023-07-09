@@ -236,7 +236,7 @@
       <section class="contact" id="contact">
         <div class="contact__title"><h2>Contacto</h2></div>
         <form action="">
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-name">
             <label for="name">Nombre <span>*</span></label
             ><input
               type="text"
@@ -246,7 +246,7 @@
               placeholder="Elon"
             />
           </div>
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-surname">
             <label for="surname">Apellidos <span>*</span></label
             ><input
               type="text"
@@ -256,7 +256,7 @@
               placeholder="Musk"
             />
           </div>
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-phone">
             <label for="phone">Teléfono <span>*</span></label
             ><input
               type="tel"
@@ -266,7 +266,7 @@
               placeholder="+34 666 666 666"
             />
           </div>
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-github">
             <label for="github">Usuario Github <span>*</span></label>
             <input
               type="text"
@@ -277,7 +277,7 @@
               pattern="^@[^\s]+"
             />
           </div>
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-known-me">
             <label for="known-me">¿Cómo me conociste?</label>
             <fieldset>
               <div class="contact__form-item__radio">
@@ -299,7 +299,7 @@
             </fieldset>
           </div>
 
-          <div class="contact__form-item">
+          <div class="contact__form-item" id="item-more-info">
             <label for="more-info">Más información</label>
             <textarea
               name="known-me"
@@ -309,11 +309,11 @@
               placeholder="Hablame de tí..."
             ></textarea>
           </div>
-          <div class="contact__form-item--checkbox">
+          <div class="contact__form-item--checkbox" id="item-newsletter">
             <input type="checkbox" name="newsletter" id="newsletter" />
             <label for="newsletter">Quiero acceso a la newsletter</label>
           </div>
-          <div class="contact__form-item--button">
+          <div class="contact__form-item--button" id="item-buttons">
             <input
               type="submit"
               class="btn"

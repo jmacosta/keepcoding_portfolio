@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 .contact__title {
   width: 100%;
@@ -56,9 +56,6 @@
 .contact__form-item textarea {
   padding: 10px;
 }
-.contact__form-item input::placeholder {
-  color: #ccc;
-}
 
 .contact__form-item--button {
   display: flex;
@@ -79,4 +76,51 @@
   color: white;
   padding: 10px 20px;
   font-size: 1.2rem;
+}
+#item-name {
+  grid-area: name;
+}
+#item-surname {
+  grid-area: surname;
+}
+#item-phone {
+  grid-area: phone;
+}
+
+#item-github {
+  grid-area: github;
+}
+#item-known-me {
+  grid-area: known-me;
+}
+#item-more-info {
+  grid-area: more-info;
+}
+#item-newsletter {
+  grid-area: newsletter;
+}
+#item-buttons {
+  grid-area: buttons;
+}
+
+@media (768px < width) {
+  .contact > form {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    gap: 2%;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "name surname"
+      "phone github"
+      "known-me known-me"
+      "more-info more-info"
+      "newsletter ."
+      "buttons buttons";
+  }
+  .contact__form-item fieldset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
 }
