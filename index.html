@@ -27,12 +27,52 @@
           <label class="menu__btn" for="menu__toggle">
             <span></span>
           </label>
-
+          <!-- No es la solución más elegantes para los enlaces, pero es la solución sin javascript que pense para cerrar el menu-->
           <ul class="menu__box">
-            <li><a href="#" class="menu__item">Sobre mi</a></li>
-            <li><a href="#" class="menu__item">Habilidades</a></li>
-            <li><a href="#" class="menu__item">Proyectos</a></li>
-            <li><a href="#" class="menu__item">Contacto</a></li>
+            <li>
+              <a
+                href="index.html#about-me"
+                target="_blank"
+                class="menu__item mobile_show"
+                >Sobre mi</a
+              >
+              <a href="index.html#about-me" class="menu__item desktop_show"
+                >Sobre mi</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#skills"
+                target="_blank"
+                class="menu__item mobile_show"
+                >Habilidades</a
+              >
+              <a href="index.html#skills" class="menu__item desktop_show"
+                >Habilidades</a
+              >
+            </li>
+            <li>
+              <a
+                href="proyectos.html"
+                class="menu__item mobile_show"
+                target="blank"
+                >Proyectos</a
+              >
+              <a href="index.html#projects" class="menu__item desktop_show"
+                >Proyectos</a
+              >
+            </li>
+            <li>
+              <a
+                href="index.html#contact"
+                target="_blank"
+                class="menu__item mobile_show"
+                >Contacto</a
+              >
+              <a href="index.html#contact" class="menu__item desktop_show"
+                >Contacto</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
