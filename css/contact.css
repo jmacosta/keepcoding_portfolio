@@ -68,6 +68,7 @@
   color: white;
   padding: 10px 20px;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .contact__form-item--button #reset {

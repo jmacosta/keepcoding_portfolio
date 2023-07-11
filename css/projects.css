@@ -64,7 +64,7 @@
   text-decoration: none;
 }
 
-.projects__button-see-more.btn {
+.projects__button-see-more {
   padding: 1rem 1rem;
   width: 50%;
   margin: auto;
