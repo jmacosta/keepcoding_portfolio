@@ -53,34 +53,50 @@
   display: block;
   border-radius: 5px;
   top: 0;
-  width: 75%;
+
   background-color: var(--accent-color);
   height: 1rem;
   z-index: 40;
+  animation: skills-width 1s;
 }
 
 #html5 .skills__skill-container__gaugage__contain {
   width: 90%;
+  --width-skill: 90%;
 }
 
 #css .skills__skill-container__gaugage__contain {
   width: 80%;
+  --width-skill: 80%;
 }
 
 #python .skills__skill-container__gaugage__contain {
   width: 30%;
+  --width-skill: 30%;
 }
 
 #figma .skills__skill-container__gaugage__contain {
   width: 50%;
+  --width-skill: 50%;
 }
 
 #javascript .skills__skill-container__gaugage__contain {
   width: 40%;
+  --width-skill: 40%;
 }
 
 #git .skills__skill-container__gaugage__contain {
   width: 60%;
+  --width-skill: 60%;
+}
+
+@keyframes skills-width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--width-skill);
+  }
 }
 
 @media (768px < width) {
