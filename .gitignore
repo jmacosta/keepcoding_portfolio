@@ -61,5 +61,6 @@ $RECYCLE.BIN/
 *.lnk
 # carpeta material grafico
 /editable/*.*
+/propuesta/*.*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos
