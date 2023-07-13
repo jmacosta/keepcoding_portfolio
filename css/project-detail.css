@@ -56,7 +56,14 @@
 
 .project-detail__text-description {
   margin-top: -300px;
-  padding: 5%;
+}
+
+.project-detail__text-description,
+.project-detail__gallery,
+.project-detail__tecnology {
+  padding: 0 5%;
+  display: block;
+  width: 100%;
 }
 
 .project-detail__container {
@@ -76,6 +83,53 @@
   font-weight: 400;
   font-size: 1.2rem;
   z-index: 500;
+}
+
+.project-detail__text-description p,
+.project-detail__gallery p,
+.project-detail__tecnology p {
+  padding-bottom: 2rem;
+}
+
+.project-detail__text-description__title,
+.project-detail__gallery__title,
+.project-detail__tecnology__title {
+  width: 100%;
+  display: block;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+.project-detail__tecnology-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-detail__tecnology__icons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-detail__tecnology-container__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.project-detail__tecnology-container__title__image {
+  height: 2.5rem;
+  width: auto;
+}
+
+.project-detail__tecnology-container__title__image img {
+  height: 100%;
+  width: auto;
 }
 
 @media (768px < width) {
