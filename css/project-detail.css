@@ -23,7 +23,7 @@
   justify-content: center;
 }
 .project-detail__container-content video {
-  width: 68%;
+  max-height: 66%;
   margin-top: 10px;
   border-radius: 10px;
 }
@@ -53,7 +53,7 @@
 .project-detail__container {
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  /* max-width: 400px; */
 
   /*grid-auto-columns: 1fr;*/
 
