@@ -6,6 +6,19 @@
 #detail {
   position: relative;
 }
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.project-detail__container__video-mockup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 100%;
+}
 
 .project-detail__container-front {
   position: absolute;
@@ -42,22 +55,27 @@
 }
 
 .project-detail__text-description {
-  position: relative;
+  margin-top: -300px;
+  padding: 5%;
 }
-.project-detail {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-}
+
 .project-detail__container {
   display: flex;
   justify-content: center;
-  /* max-width: 400px; */
+}
 
-  /*grid-auto-columns: 1fr;*/
+.project-detail__text-btn {
+  margin-top: -50px;
+}
 
-  justify-content: center;
+.project-detail__text-btn a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2rem;
+  z-index: 500;
 }
 
 @media (768px < width) {
