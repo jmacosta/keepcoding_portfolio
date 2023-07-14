@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  row-gap: 1rem;
 }
 
 .project-detail__container__video-mockup {
@@ -45,8 +45,8 @@
   justify-content: center;
 }
 .project-detail__container-content video {
-  max-height: 66%;
-  margin-top: 10px;
+  max-height: 87%;
+  margin-top: 15px;
   border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .project-detail__text-description {
-  margin-top: -300px;
+  /*margin-top: -300px;*/
 }
 
 .project-detail__text-description,
@@ -81,7 +81,7 @@
 }
 
 .project-detail__text-btn {
-  margin-top: -50px;
+  /*margin-top: -50px;*/
 }
 
 .project-detail__text-btn a {
@@ -158,16 +158,26 @@
   border-radius: 10px;
 }
 
+.icon {
+  display: flex;
+  height: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icon img {
+  height: 100%;
+}
+
 @media (768px < width) {
   .project-detail {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-      "title title"
-      "video description"
-      "video tecnology"
-      "gallery gallery"
-      "back back";
+      "title title title"
+      "video description description"
+      "video tecnology tecnology"
+      "gallery gallery gallery"
+      ". back .";
   }
 
   .project-detail__text-description {
