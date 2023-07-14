@@ -62,5 +62,9 @@ $RECYCLE.BIN/
 # carpeta material grafico
 /editable/*.*
 /propuesta/*.*
+/material/*.*
+/editable/video 9_16/*.*
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos
+editable/video 9_16/Adobe Premiere Pro Auto-Save/Sin título.prproj
+editable/video 9_16/Adobe Premiere Pro Auto-Save/Sin título-2023-07-14_19-27-50.prproj
