@@ -1,0 +1,12 @@
+.page-404 {
+  height: 100vh;
+}
+.page-404 .header {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: ". logo .";
+}
+.header__logo {
+  grid-area: logo;
+}
