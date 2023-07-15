@@ -399,7 +399,9 @@
               name="phone"
               id="phone"
               required
-              placeholder="+34 666 666 666"
+              placeholder="666-999-999"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+              title="666-999-999"
             />
           </div>
           <div class="contact__form-item" id="item-github">
@@ -411,6 +413,7 @@
               required
               placeholder="@elonMusk"
               pattern="^@[^\s]+"
+              title="@user"
             />
           </div>
           <div class="contact__form-item" id="item-known-me">
