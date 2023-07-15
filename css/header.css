@@ -12,7 +12,7 @@
   position: relative;
 }
 .header__logo {
-  height: 150px;
+  max-width: 15rem;
 }
 .header__logo img {
   width: 100%;
