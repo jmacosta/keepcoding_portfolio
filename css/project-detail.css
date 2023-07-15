@@ -48,6 +48,7 @@
   max-height: 87%;
   margin-top: 15px;
   border-radius: 10px;
+  animation: fadein 1s;
 }
 
 .project-detail__container-back {
@@ -166,6 +167,15 @@
 }
 .icon img {
   height: 100%;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (768px < width) {
