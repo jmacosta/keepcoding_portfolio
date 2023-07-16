@@ -21,7 +21,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   max-height: 100%;
 }
 
@@ -40,16 +40,17 @@
   display: flex;
   justify-content: center;
 }
-.page-404__container-content img,
-.page-404__container-content video {
+.page-404__container-content img {
   max-height: 70%;
   margin-top: 25px;
   border-radius: 10px;
   animation: fadein 1s;
 }
 .page-404__container-content video {
-  max-width: 88%;
-  margin-top: 8px;
+  width: 77%;
+  max-width: 400px;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 }
 
 .page-404__container-back {
@@ -173,5 +174,9 @@
 @media (768px < width) {
   .error-page {
     height: 100vh;
+  }
+  .page-404__container-content video {
+    width: 58%;
+    max-width: 500px;
   }
 }
