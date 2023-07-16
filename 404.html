@@ -98,7 +98,7 @@
     />
     <meta name="theme-color" content="#ffffff" />
   </head>
-  <body class="body page-404">
+  <body class="body">
     <header class="header">
       <div class="header__logo">
         <img src="assets/logo.svg" alt="jmacosta.dev Web developer FullStack" />
@@ -108,18 +108,39 @@
       <!--Init Sliders-->
 
       <!--init projects -->
-      <section>
-        <div class="page-404__imac-mockup">
-          <div class="page-404__container-back">
+      <section class="page-404">
+        <div class="page-404__container">
+          <div class="page-404__container__imac-mockup">
             <div class="page-404__container-front">
-              <img src="assets/imac_front.svg" alt="imac front image" />
+              <img src="assets/imac_front.svg" alt="phone front image" />
             </div>
             <div class="page-404__container-content">
               <img src="assets/404-travolta.webp" alt="" />
             </div>
-            <img src="assets/imac_back.svg" alt="imac back image" />
+            <div class="page-404__container-back">
+              <img src="assets/imac_back.svg" alt="phone back image" />
+            </div>
           </div>
         </div>
+
+        <div class="page-404__text-description">
+          <div class="page-404__text-description__title">
+            <h1>404</h1>
+            <h2>Sorry, we couldn't find this page.</h2>
+          </div>
+          <p>
+            But dont worry, you can find plenty of other things on our homepage.
+          </p>
+        </div>
+
+        <div class="page-404__text-btn">
+          <a href="/" class="btn"
+            ><div class="icon">
+              <img src="assets/icon_go_back_.svg" /> Back to homepage
+            </div>
+          </a>
+        </div>
+        <!-- end section -->
       </section>
     </main>
     <footer class="footer" id="footer">
